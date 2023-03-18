@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Link from 'next/link'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 const YourComponent = () => (
   <Image
@@ -10,8 +10,7 @@ const YourComponent = () => (
     width={144} // Desired size with correct aspect ratio
     alt="Your Name"
   />
-)
-
+);
 
 export default function Home() {
   return (
@@ -23,11 +22,8 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h1 className="title">
-  Leia{' '}
-  <Link href="/posts/first-post">
-    <a>esta página!</a>
-  </Link>
-</h1>
+          Leia <Link href="/posts/first-post">esta página!</Link>
+        </h1>
       </main>
 
       <footer className={styles.footer}>
@@ -36,10 +32,9 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by Vercel
-            and Replit
+          Powered by Vercel and Replit
         </a>
       </footer>
     </div>
-  )
+  );
 }
