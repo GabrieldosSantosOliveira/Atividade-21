@@ -65,10 +65,14 @@ export default function Home() {
                   height={50}
                   width={50}
                 />
-                <Text size="lg">{cardNumber || '0000 0000 0000 0000'}</Text>
+                <Text size="lg" className="text-white">
+                  {cardNumber || '0000 0000 0000 0000'}
+                </Text>
                 <div className="flex  justify-between ">
-                  <Text size="lg">{cardHolderName || 'Jonas'}</Text>
-                  <Text size="lg">
+                  <Text size="lg" className="text-white">
+                    {cardHolderName || 'Jonas'}
+                  </Text>
+                  <Text size="lg" className="text-white">
                     {expMonth || '00'}/{expYear || '00'}
                   </Text>
                 </div>
@@ -83,7 +87,7 @@ export default function Home() {
                 className="absolute "
               />
               <div className="absolute flex justify-center">
-                <Text size="lg" className="pr-8 lg:pr-16 ">
+                <Text size="lg" className="pr-8 lg:pr-16 text-white ">
                   {cvc || '000'}
                 </Text>
               </div>
