@@ -18,6 +18,7 @@ https://user-images.githubusercontent.com/86084272/226149642-9d8d90e0-9b27-4049-
 - [Next.js](https://nextjs.org/)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+- [Tailwind](https://tailwindcss.com/)
 
 ## ✔️ Pré Requisitos
 - [Yarn](https://classic.yarnpkg.com/lang/en/docs/install)
