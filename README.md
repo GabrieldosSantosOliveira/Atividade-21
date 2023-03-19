@@ -14,7 +14,6 @@ https://user-images.githubusercontent.com/86084272/226149642-9d8d90e0-9b27-4049-
 ## 🛠️ Tecnologias
 - [TypeScript](https://www.typescriptlang.org/) 
 - [Git](https://git-scm.com/)
-- [Expo](https://docs.expo.dev/)
 - [React.js](https://react.dev/) 
 - [Next.js](https://nextjs.org/)
 - [Eslint](https://eslint.org/)
